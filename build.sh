@@ -10,8 +10,7 @@ echo "Cloning dependencies if they don't exist...."
 
 if [ ! -d clang ]
 then
-git clone --depth=1 https://github.com/crdroidmod/android_prebuilts_clang_host_linux-x86_clang-5407736 clang
-
+git clone --depth=1 https://github.com/kardebayan/android_prebuilts_clang_host_linux-x86_clang-5696680.git clang
 fi
 
 if [ ! -d gcc32 ]
@@ -26,7 +25,7 @@ fi
 
 if [ ! -d AnyKernel ]
 then
-git clone --depth=1 https://gitlab.com/kardebayan3/AnyKernel3.git -b rm1 AnyKernel
+git clone --depth=1 https://github.com/stormbreaker-project/AnyKernel3.git -b CPH1859 AnyKernel
 fi
 
 echo "Done"
